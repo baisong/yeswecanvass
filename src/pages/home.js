@@ -1,3 +1,4 @@
+// Provide big cards to navigate to interior pages
 import React from 'react';
 import {Link} from "react-router-dom";
 

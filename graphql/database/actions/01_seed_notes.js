@@ -1,3 +1,10 @@
+/**
+ * Initial test data
+ * 
+ * @param { } knex 
+ * @param {*} Promise 
+ * @returns 
+ */
 exports.seed = function(knex, Promise) {
     // Deletes ALL existing entries
     return knex('notes').del()

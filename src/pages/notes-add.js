@@ -1,3 +1,4 @@
+// Add note form page
 import React from 'react';
 
 export default function NotesAdd () {

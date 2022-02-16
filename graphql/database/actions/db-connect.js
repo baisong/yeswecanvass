@@ -1,3 +1,6 @@
+/**
+ * Invoke via command line to test database connection.
+ */
 const knex = require('../mysql')
 
 console.log(process.env);

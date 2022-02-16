@@ -1,3 +1,4 @@
+// Main navigation menu
 import React from 'react';
 import {
     //BrowserRouter as Router,

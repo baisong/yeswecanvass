@@ -1,3 +1,10 @@
+/**
+ * Create the Notes table
+ * 
+ * @param {*} knex 
+ * @param {*} Promise 
+ * @returns 
+ */
 exports.up = function(knex, Promise) {
     return knex.schema.createTable('notes', function (t) {
         t.increments('id').primary()
@@ -7,6 +14,13 @@ exports.up = function(knex, Promise) {
     })
 }
 
+/**
+ * Destroy the Notes table
+ * 
+ * @param {*} knex 
+ * @param {*} Promise 
+ * @returns 
+ */
 exports.down = function(knex, Promise) {
     return knex.schema.dropTable('notes');
 }

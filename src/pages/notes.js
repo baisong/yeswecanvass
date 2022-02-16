@@ -1,3 +1,4 @@
+// List notes page
 import React from 'react';
 
 const noteRecords = [

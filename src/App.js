@@ -1,3 +1,6 @@
+/**
+ * React App
+ */
 import React from 'react';
 import logo from './logo.svg';
 import Nav from './components/nav';

@@ -1,3 +1,6 @@
+/**
+ * Connect to development mysql database
+ */
 import env from '../../public/env';
 
 let config = {

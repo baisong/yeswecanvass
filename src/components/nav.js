@@ -8,7 +8,7 @@ import {
 
 const menuItems = [
     {
-        title: '+ Note',
+        title: 'Add note',
         path: '/notes-add'
     },
     {
@@ -20,7 +20,7 @@ const menuItems = [
 export default function Nav() {
     return (<nav className="site-nav">
         <h1>
-            <Link to="/">Yes We Canvass</Link>
+            <Link to="/">Yes We CANvass</Link>
             </h1>
         <ul>
             { menuItems.map((item, i) => (

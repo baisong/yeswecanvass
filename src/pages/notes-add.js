@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function NotesAdd () {
-    return <main>
+    return (<main>
         <h2 className="page-title">Add note</h2>
         <form>
             <div className="form-item first">
@@ -20,6 +20,7 @@ export default function NotesAdd () {
                     <textarea id="description" />
                 </div>
             </div>
+            <input type="submit" value="Save"></input>
         </form>
-    </main>
+    </main>)
 }

@@ -21,4 +21,27 @@ main {
     .page-title {
         font-weight: lighter;
     }
+    
+    .hero {
+        height: 100%;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-inline-start: 0;
+        display: flex;
+        padding-right: 6em;
+
+        a {
+            flex: 8;
+            padding-top: 4em;
+            padding-bottom: 4em;
+            text-align: center;
+            border: 1px solid $light-accent;
+            border-radius: 2em;
+        }
+        .spacer {
+            flex: 1;
+        }
+
+    }
+
 }
